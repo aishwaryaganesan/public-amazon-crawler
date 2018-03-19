@@ -2,34 +2,23 @@ import os
 import random
 from datetime import datetime
 from urlparse import urlparse
-
 import eventlet
-requests = eventlet.import_patched('requests.__init__')
-time = eventlet.import_patched('time')
-import redis
-
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
-
 import settings
 
+requests = eventlet.import_patched('requests.__init__')
+time = eventlet.import_patched('time')
 num_requests = 0
-
-redis = redis.StrictRedis(host=settings.redis_host, port=settings.redis_port, db=settings.redis_db)
-
 
 def make_request(url, return_soup=True):
     # global request building and response handling
-
     url = format_url(url)
-
     if "picassoRedirect" in url:
         return None  # skip the redirect URLs
-
     global num_requests
     if num_requests >= settings.max_requests:
         raise Exception("Reached the max number of requests: {}".format(settings.max_requests))
-
     proxies = get_proxy()
     try:
         r = requests.get(url, headers=settings.headers, proxies=proxies)
@@ -53,7 +42,7 @@ def format_url(url):
     # make sure URLs aren't relative, and strip unnecssary query args
     u = urlparse(url)
 
-    scheme = u.scheme or "https"
+    scheme = u.scheme or "http"
     host = u.netloc or "www.amazon.com"
     path = u.path
 
@@ -96,15 +85,6 @@ def get_proxy():
         "http": proxy_url,
         "https": proxy_url
     }
-
-
-def enqueue_url(u):
-    url = format_url(u)
-    return redis.sadd("listing_url_queue", url)
-
-
-def dequeue_url():
-    return redis.spop("listing_url_queue")
 
 
 if __name__ == '__main__':

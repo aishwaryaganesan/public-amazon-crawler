@@ -1,16 +1,5 @@
 import os
-
 current_dir = os.path.dirname(os.path.realpath(__file__))
-
-# Database
-database = "amazon_crawler"
-host = ""
-user = ""
-
-# Redis
-redis_host = ""
-redis_port = 6379
-redis_db = 0
 
 # Request
 headers = {
@@ -37,9 +26,12 @@ max_requests = 2 * 10**6  # two million
 max_details_per_listing = 9999
 
 # Threads
-max_threads = 200
+max_threads = 20
 
 # Logging & Storage
 log_stdout = True
 image_dir = "/tmp/crawl_images"
 export_dir = "/tmp"
+
+#total items to crawl
+total_crawl = 10
