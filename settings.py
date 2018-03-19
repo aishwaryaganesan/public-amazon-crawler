@@ -30,8 +30,6 @@ max_threads = 20
 
 # Logging & Storage
 log_stdout = True
-image_dir = "/tmp/crawl_images"
-export_dir = "/tmp"
 
 #total items to crawl
 total_crawl = 10

@@ -22,14 +22,12 @@ class ProductRecord(object):
         self.properties = properties
 
     def pretty_print(self):
-        return self.title  + ":" +  str(self.price) + ":" +str(self.properties)
+        return self.title  + ":" +  str(self.price) + ":" +str(self.properties.keys())
 
     def save(self):
         print str(len(product_list)+1) + "\t" + self.pretty_print()
         product_list.append(self)
         if (len(product_list) >= settings.total_crawl):
-            for product in product_list:
-                print product.properties
             pickle.dump(product_list, open("products.p", "wb" ))
             sys.exit(0)
 
@@ -89,8 +87,11 @@ def fetch_listing():
         product_url = get_url(item)
         product_price = get_price(item)
         try:
+            # visit the page specified by product_url
             page1, html1 = make_request(product_url)
             temp_dict = {}
+
+            #extract product info from comparison_table
             table = page1.find("table", "a-bordered a-horizontal-stripes a-spacing-mini a-size-base comparison_table")
             for i in table.findAll("tr"):
                 if "a-span3 comparison_attribute_name_column comparison_table_first_col" in str(i):
@@ -98,13 +99,14 @@ def fetch_listing():
                     v = i.find("th").find("span").get_text()
                     temp_dict[v] = k
 
+            #extract product info from product details Table
             tables = page1.findAll("table", "a-keyvalue prodDetTable")
             for table2 in tables:
                 for i in table2.findAll("tr"):
                     k = i.find("td").get_text().strip()
                     v = i.find("th").get_text().strip()
                     temp_dict[v] = k
-                break
+
             product = ProductRecord(
                 title=product_title,
                 product_url=format_url(product_url),
@@ -115,7 +117,6 @@ def fetch_listing():
         except Exception as e:
             print e
 
-
         # download_image(product_image, product_id)
 
     # add next page to queue
@@ -124,7 +125,6 @@ def fetch_listing():
         log(" Found 'Next' link on {}: {}".format(url, next_link["href"]))
         enqueue_url(next_link["href"])
         pile.spawn(fetch_listing)
-
 
 if __name__ == '__main__':
 

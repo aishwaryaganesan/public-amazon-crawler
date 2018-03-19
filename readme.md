@@ -15,10 +15,9 @@ After you get a copy of this codebase pulled down locally (either downloaded as 
     pip install -r requirements.txt
 
 Then you'll need to go into the `settings.py` file and update a number of values:
-
- * **Database Name, Host and User** - Connection information for storing products in a postgres database
- * **Redis Host, Port and Database** - Connection information for storing the URL queue in redis
  * **Proxy List as well as User, Password and Port** - Connection information for your list of proxy servers
+ * **total_crawl - no of total items to crawl
+
 
 Once you've updated all of your connection information, you'll need to run the following at the command line to setup the postgres table that will store the product records:
 
@@ -33,6 +32,8 @@ The fields that are stored for each product are the following:
  * primary_img *(the URL to the full-size primary product image)*
  * crawl_time *(the timestamp of when the crawl began)*
 
+**We additionally get the page pointed by product_url and collect product info from comparison_table and product details table
+
 ## How it Works
 You begin the crawler for the first time by running:
 
@@ -42,18 +43,8 @@ This runs a function that looks at all of the category URLs stored in the `start
 
 Then the program spins up the number of threads defined in `settings.max_threads` and each one of those threads pops a listing URL from the queue, makes a request to it and then stores the (usually) 10-12 products it finds on the listing page. It also looks for the "next page" URL and puts that in the queue.
 
-### Restarting the crawler
-If you're restarting the crawler and don't want it to go back to the beginning, you can simply run it with
-
-    python crawler.py
-
-This will skip the step of populating the URL queue with subcategory links, and assumes that there are already URLs stored in redis from a previous instance of the crawler.
-
-This is convenient for making updates to crawler or parsing logic that only affect a few pages, without going back to the beginning and redoing all of your previous crawling work.
-
 ### Piping Output to a Logfile
 If you'd like to redirect the logging output into a logfile for later analysis, run the crawler with:
-
     python crawler.py [start] > /var/log/crawler.log
 
 ## Known Limitations
