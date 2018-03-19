@@ -5,6 +5,7 @@ from urlparse import urlparse
 import eventlet
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
+from eventlet.green import urllib2
 import settings
 
 requests = eventlet.import_patched('requests.__init__')
@@ -21,21 +22,18 @@ def make_request(url, return_soup=True):
         raise Exception("Reached the max number of requests: {}".format(settings.max_requests))
     proxies = get_proxy()
     try:
-        r = requests.get(url, headers=settings.headers, proxies=proxies)
-    except RequestException as e:
+        r = urllib2.urlopen(url)
+        #r = requests.get(url, headers=settings.headers, proxies=proxies, timeout=10000000)
+    except Exception as e:
         log("WARNING: Request for {} failed, trying again.".format(url))
-        return make_request(url)  # try request again, recursively
-
+        if return_soup:
+            return None, None
+        return None
     num_requests += 1
 
-    if r.status_code != 200:
-        os.system('say "Got non-200 Response"')
-        log("WARNING: Got a {} status code for URL: {}".format(r.status_code, url))
-        return None
-
     if return_soup:
-        return BeautifulSoup(r.text), r.text
-    return r
+        return BeautifulSoup(r.read()), r.read()
+    return r.read()
 
 
 def format_url(url):
@@ -43,7 +41,7 @@ def format_url(url):
     u = urlparse(url)
 
     scheme = u.scheme or "http"
-    host = u.netloc or "www.amazon.com"
+    host = u.netloc or settings.host
     path = u.path
 
     if not u.query:

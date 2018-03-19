@@ -33,3 +33,4 @@ log_stdout = True
 
 #total items to crawl
 total_crawl = 10
+host = "www.amazon.com"
