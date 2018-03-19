@@ -32,7 +32,7 @@ def make_request(url, return_soup=True):
     num_requests += 1
 
     if return_soup:
-        return BeautifulSoup(r.read()), r.read()
+        return BeautifulSoup(r.read(), "html5lib"), r.read()
     return r.read()
 
 
