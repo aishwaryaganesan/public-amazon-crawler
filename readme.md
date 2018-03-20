@@ -9,6 +9,11 @@ A relatively simple amazon.com crawler written in python. It has the following f
 It was used to pull over 1MM+ products and their images from amazon in a few hours. [Read more]().
 
 ## Getting it Setup
+
+[dryscrape dependency] - do this first
+sudo apt-get install qt5-default libqt5webkit5-dev build-essential python-lxml python-pip xvfb
+sudo pip install dryscrape
+
 After you get a copy of this codebase pulled down locally (either downloaded as a zip or git cloned), you'll need to install the python dependencies:
 
     pip install -r requirements.txt

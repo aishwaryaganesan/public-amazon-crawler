@@ -12,9 +12,9 @@ requests = eventlet.import_patched('requests.__init__')
 time = eventlet.import_patched('time')
 num_requests = 0
 
-def make_request(url, return_soup=True):
+def make_request(url, return_soup=True, walmart=False):
     # global request building and response handling
-    url = format_url(url)
+    url = format_url(url, walmart)
     if "picassoRedirect" in url:
         return None  # skip the redirect URLs
     global num_requests
@@ -36,12 +36,13 @@ def make_request(url, return_soup=True):
     return r.read()
 
 
-def format_url(url):
+def format_url(url, walmart=False):
     # make sure URLs aren't relative, and strip unnecssary query args
     u = urlparse(url)
 
     scheme = u.scheme or "http"
-    host = u.netloc or settings.host
+    settings_host = settings.w_host if walmart else settings.host
+    host = u.netloc or settings_host
     path = u.path
 
     if not u.query:

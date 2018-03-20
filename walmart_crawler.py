@@ -2,10 +2,10 @@ import sys
 import eventlet
 import settings
 from helpers import make_request, log, format_url
-from extractors import get_title, get_url, get_price, get_primary_img
 from collections import deque
 from datetime import datetime
 import pickle
+import dryscrape
 
 crawl_time = datetime.now()
 pool = eventlet.GreenPool(settings.max_threads)
@@ -39,38 +39,53 @@ def dequeue_url():
 
 def begin_crawl():
     # explode out all of our category `start_urls` into subcategories
-    with open(settings.start_file, "r") as f:
+    with open(settings.w_start_file, "r") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue  # skip blank and commented out lines
+            url = line
             page, html = make_request(line)
             count = 0
-            # look for subcategory links on this page
-            subcategories = page.findAll("div", "bxc-grid__image")  # downward arrow graphics
-            subcategories.extend(page.findAll("li", "sub-categories__list__item"))  # carousel hover menu
-            sidebar = page.find("div", "browseBox")
-            if sidebar:
-                subcategories.extend(sidebar.findAll("li"))  # left sidebar
 
-            for subcategory in subcategories:
-                link = subcategory.find("a")
-                if not link:
-                    continue
-                link = link["href"]
-                count += 1
-                enqueue_url(link)
-            log("Found {} subcategories on {}".format(count, line))
+            i = 1 # starting page
+            while page != None:
+                print 'page %d of link: %s' %(i, line)
+                # look for products listed on this page
+                results = page.findAll('div', 'search-result-gridview-item clearfix')  # items in gridview
+
+                for result in results:
+                    link = result.find('a')
+                    if not link:
+                        continue
+                    link = link['href']
+                    count += 1
+                    enqueue_url(link)
+                
+                i += 1
+                # go to list of pages at bottom    
+                p_list = page.find('ul', 'paginator-list').findAll('li')
+                for p in p_list:
+                    # search for 'next' ordinal page
+                    if not p.has_attr('class') and str(i) in p.find('a').text:
+                        next_page = '?page=%d#searchProductResult' % i # href is wrong because it is dynamically generated
+                        url = line + next_page
+                        page, html = make_request(url)
+                        break
+                    else:
+                        page = None
+
+            log("Found {} results on {}".format(count, line))
 
 def fetch_listing():
-    global crawl_time
-    url = dequeue_url()
-    if not url:
-        log("WARNING: No URLs found in the queue. Retrying...")
-        pile.spawn(fetch_listing)
-        return
+	global crawl_time
+	url = dequeue_url()
+	if not url:
+		log("WARNING: No URLs found in the queue. Retrying...")
+		pile.spawn(fetch_listing)
+		return
 
-    	session = dryscrape.Session()
+	session = dryscrape.Session()
 	session.visit(url)
 	response = session.body()
 	soup = BeautifulSoup(response, "html5lib")
@@ -132,7 +147,7 @@ def fetch_listing():
 		properties=properties
 	)
 
-    product.save()
+	product.save()
 
 
 
@@ -154,4 +169,4 @@ if __name__ == '__main__':
         [pile.spawn(fetch_listing) for _ in range(settings.max_threads)]
         pool.waitall()
     else:
-        print "Usage: python crawler.py start"
+        print "Usage: python walmart_crawler.py start"
