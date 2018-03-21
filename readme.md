@@ -27,6 +27,10 @@ You begin the crawler for the first time by running:
 
     python crawler.py start
 
+If using the walmart crawler:
+
+    xvfb-run python walmart_crawler.py start
+
 This runs a function that looks at all of the category URLs stored in the `start-urls.txt` file, and then explodes those out into hundreds of subcategory URLs it finds on the category pages. Each of these subcategory URLs is placed in the redis queue that holds the frontier listing URLs to be crawled.
 
 Then the program spins up the number of threads defined in `settings.max_threads` and each one of those threads pops a listing URL from the queue, makes a request to it and then stores the (usually) 10-12 products it finds on the listing page. It also looks for the "next page" URL and puts that in the queue.
