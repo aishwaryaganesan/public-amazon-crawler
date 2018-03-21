@@ -6,6 +6,7 @@ from collections import deque
 from datetime import datetime
 import pickle
 import dryscrape
+from bs4 import BeautifulSoup
 
 crawl_time = datetime.now()
 pool = eventlet.GreenPool(settings.max_threads)
@@ -49,7 +50,7 @@ def begin_crawl():
             count = 0
 
             i = 1 # starting page
-            while page != None:
+            while page != None and i < 2:
                 print 'page %d of link: %s' %(i, line)
                 # look for products listed on this page
                 results = page.findAll('div', 'search-result-gridview-item clearfix')  # items in gridview
@@ -84,6 +85,9 @@ def fetch_listing():
 		log("WARNING: No URLs found in the queue. Retrying...")
 		pile.spawn(fetch_listing)
 		return
+
+	# need to add host to url
+	url = format_url(url, walmart=True)
 
 	session = dryscrape.Session()
 	session.visit(url)
