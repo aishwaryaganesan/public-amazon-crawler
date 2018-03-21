@@ -50,7 +50,7 @@ def begin_crawl():
             count = 0
 
             i = 1 # starting page
-            while page != None and i < 2:
+            while page != None:
                 print 'page %d of link: %s' %(i, line)
                 # look for products listed on this page
                 results = page.findAll('div', 'search-result-gridview-item clearfix')  # items in gridview
