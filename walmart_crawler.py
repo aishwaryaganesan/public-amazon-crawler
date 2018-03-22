@@ -211,7 +211,7 @@ def fetch_listing():
     #     log(" Found 'Next' link on {}: {}".format(url, next_link["href"]))
     #     enqueue_url(next_link["href"])
     #     pile.spawn(fetch_listing)
-    pile.spawn(fetch_listing)
+	pile.spawn(fetch_listing)
 
 if __name__ == '__main__':
 
