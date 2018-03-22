@@ -38,22 +38,26 @@ def enqueue_url(url):
 def dequeue_url():
     return queue.popleft() 
 
-def begin_crawl():
+def begin_crawl(session):
     # explode out all of our category `start_urls` into subcategories
     with open(settings.w_start_file, "r") as f:
+        session = dryscrape.Session()
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue  # skip blank and commented out lines
             url = line
-            page, html = make_request(line)
+
+            session.visit(url)
+            response = session.body()
+            soup = BeautifulSoup(response, "html5lib")
             count = 0
 
             i = 1 # starting page
-            while page != None:
+            while soup != None:
                 print 'page %d of link: %s' %(i, line)
                 # look for products listed on this page
-                results = page.findAll('div', 'search-result-gridview-item clearfix')  # items in gridview
+                results = soup.findAll('div', 'search-result-gridview-item clearfix')  # items in gridview
 
                 for result in results:
                     link = result.find('a')
@@ -65,20 +69,38 @@ def begin_crawl():
                 
                 i += 1
                 # go to list of pages at bottom    
-                p_list = page.find('ul', 'paginator-list').findAll('li')
+                p_list = soup.find('ul', 'paginator-list').findAll('li')
                 for p in p_list:
-                    # search for 'next' ordinal page
+                    # search for 'next' ordinal page, visit that next page for next iteration of while loop
                     if not p.has_attr('class') and str(i) in p.find('a').text:
-                        next_page = '?page=%d#searchProductResult' % i # href is wrong because it is dynamically generated
-                        url = line + next_page
-                        page, html = make_request(url)
+                        url = format_url(p.find('a')['href'], walmart=True)
+                        session.visit(url)
+                        response = session.body()
+                        soup = BeautifulSoup(response, "html5lib")
                         break
                     else:
-                        page = None
+                        soup = None # if None for all, there is no next page and we can stop searching this link
 
             log("Found {} results on {}".format(count, line))
 
-def fetch_listing():
+def dump_urls():
+    visited = {}
+    with open(settings.w_URL_file, 'w') as w:
+        while queue: # while queue is not empty
+            url = dequeue_url()
+            if not url:
+                log("Queue empty")
+                return
+
+            if url in visited: # we've already seen this product
+                continue
+            else:
+                visited[url] = True # mark that we've seen it
+            # need to add host to url
+            url = format_url(url, walmart=True)
+            w.write('%s\n' % url)
+
+def fetch_listing(session):
 	global crawl_time
 	url = dequeue_url()
 	if not url:
@@ -89,7 +111,7 @@ def fetch_listing():
 	# need to add host to url
 	url = format_url(url, walmart=True)
 
-	session = dryscrape.Session()
+	#session = dryscrape.Session()
 	session.visit(url)
 	response = session.body()
 	soup = BeautifulSoup(response, "html5lib")
@@ -167,10 +189,13 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1 and sys.argv[1] == "start":
         log("Seeding the URL frontier with subcategory URLs")
-        begin_crawl()  # put a bunch of subcategory URLs into the queue
+        session = dryscrape.Session()
+        begin_crawl(session)  # put a bunch of subcategory URLs into the queue
 
-        log("Beginning crawl at {}".format(crawl_time))
-        [pile.spawn(fetch_listing) for _ in range(settings.max_threads)]
+        log('Dumping all URLs to file: %s' % settings.w_URL_file)
+        dump_urls()
+        #log("Beginning crawl at {}".format(crawl_time))
+        #[pile.spawn(fetch_listing(session)) for _ in range(settings.max_threads)]
         pool.waitall()
     else:
         print "Usage: python walmart_crawler.py start"

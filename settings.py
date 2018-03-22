@@ -23,6 +23,7 @@ proxy_port = ""
 # Crawling Logic
 start_file = os.path.join(current_dir, "start-urls.txt")
 w_start_file = os.path.join(current_dir, 'w-start-urls.txt')
+w_URL_file = os.path.join(current_dir, 'walmart-product-URLs.txt')
 max_requests = 2 * 10**6  # two million
 max_details_per_listing = 9999
 
