@@ -115,7 +115,7 @@ def gather_urls(start, end):
 
 def fetch_listing():
 	global crawl_time
-    if not queue:
+	if not queue:
         return
 	url, index = dequeue_url()
 	if not url:
