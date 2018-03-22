@@ -124,86 +124,87 @@ def print_product(index):
 
 def fetch_listing():
 	global crawl_time
-	if not queue:
-		return
-	url, index = dequeue_url()
-	if not url:
-		log("WARNING: No URLs found in the queue. Retrying...")
-		pile.spawn(fetch_listing)
-		return
-
-	# need to add host to url
-	# url = format_url(url, walmart=True)
 
 	session = dryscrape.Session()
-	session.visit(url)
-	response = session.body()
-	soup = BeautifulSoup(response, "html5lib")
+	while queue:		
+		url, index = dequeue_url()
+		if not url:
+			log("WARNING: No URLs found in the queue. Retrying...")
+			pile.spawn(fetch_listing)
+			return
 
-	# title
-	product_title = soup.find('h1',{'class':'prod-ProductTitle no-margin heading-a'}).get_text()
+		# need to add host to url
+		# url = format_url(url, walmart=True)
 
-	# price
-	try:
-		box = soup.find('div',{'class','prod-BotRow prod-showBottomBorder prod-OfferSection prod-OfferSection-twoPriceDisplay'})
-		product_price = box.find('span',{'class':'Price-group'}).get_text()
-	except:
-		product_price = 'N/A'
-		pass
-	product_url = url
+		session.visit(url)
+		response = session.body()
+		soup = BeautifulSoup(response, "html5lib")
 
-	# get properties
-	try:
-		keys = []
-		for s in soup.findAll("td", "ComparisonKey-cell"):
-			s = s.get_text().strip('')
+		# title
+		product_title = soup.find('h1',{'class':'prod-ProductTitle no-margin heading-a'}).get_text()
+
+		# price
+		try:
+			box = soup.find('div',{'class','prod-BotRow prod-showBottomBorder prod-OfferSection prod-OfferSection-twoPriceDisplay'})
+			product_price = box.find('span',{'class':'Price-group'}).get_text()
+		except:
+			product_price = 'N/A'
+			pass
+		product_url = url
+
+		# get properties
+		try:
+			keys = []
+			for s in soup.findAll("td", "ComparisonKey-cell"):
+				s = s.get_text().strip('')
+				try:
+					# Keep ascii chars.
+					ss = ''.join([c for c in s if ord(c) < 128])
+					if len(ss):
+						keys.append(ss)
+				except UnicodeEncodeError:
+					pass
+
+			values = []
+			for s in soup.findAll("table", "comparison-values table no-margin")[0].findAll("td"):
+				s = s.get_text().strip()
+				try:
+					# Keep ascii chars.
+					ss = ''.join([c for c in s if ord(c) < 128])
+					if len(ss):
+						values.append(ss.strip(''))
+				except UnicodeEncodeError:
+					pass
+
+			properties = {k:v for k,v in zip(keys, values)}
+
+			if not len(properties):
+				raise "Empty properties"
+
+			# print properties
+
+		except Exception as e:
+			properties = {}
 			try:
-				# Keep ascii chars.
-				ss = ''.join([c for c in s if ord(c) < 128])
-				if len(ss):
-					keys.append(ss)
-			except UnicodeEncodeError:
-				pass
-
-		values = []
-		for s in soup.findAll("table", "comparison-values table no-margin")[0].findAll("td"):
-			s = s.get_text().strip()
-			try:
-				# Keep ascii chars.
-				ss = ''.join([c for c in s if ord(c) < 128])
-				if len(ss):
-					values.append(ss.strip(''))
-			except UnicodeEncodeError:
-				pass
-
-		properties = {k:v for k,v in zip(keys, values)}
-
-		if not len(properties):
-			raise "Empty properties"
-
-		# print properties
-
-	except Exception as e:
-		properties = {}
-        try:
-    		for tr in soup.find("tbody").findAll("tr"):
-    			properties[tr.find('th').get_text()] = tr.find('td').get_text()
-        except Exception as e:
-            log('Could not obtain properties for product %d' % index)
-		# print properties
+				for tr in soup.find("tbody").findAll("tr"):
+					properties[tr.find('th').get_text()] = tr.find('td').get_text()
+			except Exception as e:
+				log('Could not obtain properties for product %d' % index)
+    		# print properties
 
 
-	product = ProductRecord(
-		title=product_title,
-		product_url=product_url,
-		price=product_price,
-		properties=properties
-	)
+		product = ProductRecord(
+			title=product_title,
+			product_url=product_url,
+			price=product_price,
+			properties=properties
+		)
 
-	product.save()
-	product_name = '%s%d.p' % (settings.w_products_path, index)
-	pickle.dump(product, open(product_name, 'wb'))
+		product.save()
+		product_name = '%s%d.p' % (settings.w_products_path, index)
+		pickle.dump(product, open(product_name, 'wb'))
 
+	return
     # add next page to queue
     # TODO
     # next_link = page.find("a", id="pagnNextLink")
@@ -211,8 +212,6 @@ def fetch_listing():
     #     log(" Found 'Next' link on {}: {}".format(url, next_link["href"]))
     #     enqueue_url(next_link["href"])
     #     pile.spawn(fetch_listing)
-	pile.spawn(fetch_listing)
-	return
 
 if __name__ == '__main__':
 
