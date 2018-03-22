@@ -100,18 +100,33 @@ def dump_urls():
             url = format_url(url, walmart=True)
             w.write('%s\n' % url)
 
-def fetch_listing(session):
+def gather_urls(start, end):
+    with open(settings.w_URL_file, 'r') as w:
+        urls = w.readlines()[start:end]
+
+    i = start
+
+    for url in urls:
+        url = url.strip()
+        enqueue_url((url, i))
+        i += 1
+
+    log('Total number of product URLs enqueued: %d' % len(urls))
+
+def fetch_listing():
 	global crawl_time
-	url = dequeue_url()
+    if not queue:
+        return
+	url, index = dequeue_url()
 	if not url:
 		log("WARNING: No URLs found in the queue. Retrying...")
 		pile.spawn(fetch_listing)
 		return
 
 	# need to add host to url
-	url = format_url(url, walmart=True)
+	# url = format_url(url, walmart=True)
 
-	#session = dryscrape.Session()
+	session = dryscrape.Session()
 	session.visit(url)
 	response = session.body()
 	soup = BeautifulSoup(response, "html5lib")
@@ -161,8 +176,11 @@ def fetch_listing(session):
 
 	except Exception as e:
 		properties = {}
-		for tr in soup.find("tbody").findAll("tr"):
-			properties[tr.find('th').get_text()] = tr.find('td').get_text()
+        try:
+    		for tr in soup.find("tbody").findAll("tr"):
+    			properties[tr.find('th').get_text()] = tr.find('td').get_text()
+        except Exception as e:
+            log('Could not obtain properties for product %d' % index)
 		# print properties
 
 
@@ -174,8 +192,8 @@ def fetch_listing(session):
 	)
 
 	product.save()
-
-
+	product_name = '%s%d.p' % (settings.w_products_path, index)
+	pickle.dump(product, open(product_name, 'wb'))
 
     # add next page to queue
     # TODO
@@ -188,14 +206,15 @@ def fetch_listing(session):
 if __name__ == '__main__':
 
     if len(sys.argv) > 1 and sys.argv[1] == "start":
-        log("Seeding the URL frontier with subcategory URLs")
-        session = dryscrape.Session()
-        begin_crawl(session)  # put a bunch of subcategory URLs into the queue
+        #log("Seeding the URL frontier with subcategory URLs")
+        #session = dryscrape.Session()
+        #begin_crawl(session)  # put a bunch of subcategory URLs into the queue
 
-        log('Dumping all URLs to file: %s' % settings.w_URL_file)
-        dump_urls()
-        #log("Beginning crawl at {}".format(crawl_time))
-        #[pile.spawn(fetch_listing(session)) for _ in range(settings.max_threads)]
+        #log('Dumping all URLs to file: %s' % settings.w_URL_file)
+        #dump_urls()
+        gather_urls(int(sys.argv[2]), int(sys.argv[3]))
+        log("Beginning crawl at {}".format(crawl_time))
+        [pile.spawn(fetch_listing) for _ in range(settings.max_threads)]
         pool.waitall()
     else:
         print "Usage: python walmart_crawler.py start"
