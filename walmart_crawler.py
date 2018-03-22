@@ -113,10 +113,19 @@ def gather_urls(start, end):
 
     log('Total number of product URLs enqueued: %d' % len(urls))
 
+def print_product(index):
+	file = '%s%d.p' % (settings.w_products_path, index)
+	with open(file, 'rb') as f:
+		product = pickle.load(f)
+
+	print product.title
+	print product.price
+	print product.properties
+
 def fetch_listing():
 	global crawl_time
 	if not queue:
-        return
+		return
 	url, index = dequeue_url()
 	if not url:
 		log("WARNING: No URLs found in the queue. Retrying...")
@@ -216,5 +225,6 @@ if __name__ == '__main__':
         log("Beginning crawl at {}".format(crawl_time))
         [pile.spawn(fetch_listing) for _ in range(settings.max_threads)]
         pool.waitall()
+        #print_product(int(sys.argv[2])) # test print of first product
     else:
         print "Usage: python walmart_crawler.py start"
