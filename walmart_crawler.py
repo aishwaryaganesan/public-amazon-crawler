@@ -212,6 +212,7 @@ def fetch_listing():
     #     enqueue_url(next_link["href"])
     #     pile.spawn(fetch_listing)
 	pile.spawn(fetch_listing)
+	return
 
 if __name__ == '__main__':
 
