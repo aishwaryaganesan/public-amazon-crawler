@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/HP-6910p-NC6400-NW9440-NX9420-Inverter-418888-001/687149498'
+p7
+sS'price'
+p8
+V$30.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVRecommended Location
+p14
+VIndoor
+p15
+ssS'title'
+p16
+VHP 6910p NC6400 NW9440 NX9420 Inverter 418888-001
+p17
+sb.

@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Apple-MacBook-Air-11-6-Notebook-Intel-i7-3667U-2-0GHz-4GB-128GB-SSD-MD845LL-A/230380607'
+p7
+sS'price'
+p8
+V$529.95
+p9
+sS'properties'
+p10
+(dp11
+VHard Drive Capacity
+p12
+V128
+p13
+sVBrand
+p14
+VApple
+p15
+sVModel
+p16
+VMacBook
+p17
+sVManufacturer Part Number
+p18
+VMD845LLA-PB-RCC
+p19
+ssS'title'
+p20
+VRefurbished Apple MacBook Air 11.6" Notebook Intel i7-3667U 2.0GHz 4GB 128GB SSD MD845LL/A
+p21
+sb.

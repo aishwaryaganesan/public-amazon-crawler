@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/ASUS-Transformer-Book-T100-Chi-10-1-inch-Full-HD-Touchscreen-Detachable-2-in-1-Laptop-Intel-Quad-core-Processor-128-GB-Storage-4GB-Ram-Windows-10/923774429'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVAssembled Product Dimensions (L x W x H)
+p14
+V10.90 x 0.50 x 6.90 Inches
+p15
+sVModel
+p16
+V8.89349E+11
+p17
+sVCondition
+p18
+VNew
+p19
+ssS'title'
+p20
+VASUS Transformer Book T100 Chi 10.1 inch Full HD Touchscreen Detachable 2-in-1 Laptop, Intel Quad core Processor 128 GB Storage, 4GB Ram, Windows 10
+p21
+sb.

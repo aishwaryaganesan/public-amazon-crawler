@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Acer-C720-Chromebook-11-6-Inch-2GB-32GB-SSD/734466810'
+p7
+sS'price'
+p8
+V$248.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAcer
+p13
+sVScreen Size
+p14
+V11.6
+p15
+sVHard Drive Capacity
+p16
+V32
+p17
+ssS'title'
+p18
+VRefurbished Acer C720 Chromebook (11.6-Inch, 2GB & 32GB SSD)
+p19
+sb.

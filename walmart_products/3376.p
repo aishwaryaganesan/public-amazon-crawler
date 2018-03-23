@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Asus-Zenbook-3-Deluxe-UX490UA-XH74-BL-14-0-inch-Intel-Core-i7-8550U-1-8GHz-16GB-LPDDR3-512GB-PCI-E-SSD-USB3-1-Windows-10-Professional-Ultrabook-Royal/614352926'
+p7
+sS'price'
+p8
+V$2,208.01
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVOperating System
+p14
+VMicrosoft Windows
+p15
+sVCondition
+p16
+VNew
+p17
+ssS'title'
+p18
+VAsus Zenbook 3 Deluxe UX490UA-XH74-BL 14.0 inch Intel Core i7-8550U 1.8GHz/ 16GB LPDDR3/ 512GB PCI-E SSD/ USB3.1/ Windows 10 Professional Ultrabook (Royal Blue)
+p19
+sb.

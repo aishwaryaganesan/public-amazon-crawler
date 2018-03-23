@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-ThinkPad-13-20GJS00600-13-3-quot-Ultrabook-Intel-Celeron-3855U-Dual-core-2-Core-1-60-GHz-ThinkPad-13-20GJS00600/523294298'
+p7
+sS'price'
+p8
+V$557.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVScreen Size
+p14
+V13.3
+p15
+ssS'title'
+p16
+VRefurbished "Lenovo ThinkPad 13 20GJS00600 13.3" Ultrabook - Intel Celeron 3855U Dual-core (2 Core) 1.60 GHz ThinkPad 13 20GJS00600"
+p17
+sb.

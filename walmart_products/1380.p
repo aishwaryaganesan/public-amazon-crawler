@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/GPD-WIN-4GB-RAM-64GB-ROM-Windows-10-Aluminum-Shell-Version-X7-Z8750-Powered-Gaming-Portable-Console-5-5-OGS-LCD-Display-Up-to-2-56GHz-CPU/234339892'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VLaptop Computer Type
+p12
+VPC Laptops
+p13
+sVBrand
+p14
+VGPD
+p15
+sVmanufacturer_part_number
+p16
+Vwin,4gb
+p17
+ssS'title'
+p18
+VGPD WIN,4GB RAM, 64GB ROM,Windows 10, Aluminum Shell Version X7-Z8750 Powered Gaming Portable Console 5.5" OGS LCD Display, Up to 2.56GHz CPU
+p19
+sb.

@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Alienware-14-ALW14-1250sLV-14-Inch-Gaming-Laptop-i5-4200M-8GB-Memory/262534843'
+p7
+sS'price'
+p8
+V$999.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAlienware
+p13
+sVScreen Size
+p14
+V14
+p15
+ssS'title'
+p16
+VRefurbished Alienware 14 ALW14-1250sLV 14-Inch Gaming Laptop (i5-4200M, 8GB Memory
+p17
+sb.

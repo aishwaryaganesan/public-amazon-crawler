@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-EliteBook-Folio-9480m-14-LED-Notebook-Intel-Core-i5-i5-4310U-Dual-core-2-Core-2-GHz-Platinum-K6M61US-ABA/757748580'
+p7
+sS'price'
+p8
+V$899.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V14
+p15
+sVmanufacturer_part_number
+p16
+Vk6m61us # aba
+p17
+ssS'title'
+p18
+VRefurbished HP EliteBook Folio 9480m 14" LED Notebook - Intel Core i5 i5-4310U Dual-core (2 Core) 2 GHz - Platinum K6M61US#ABA
+p19
+sb.

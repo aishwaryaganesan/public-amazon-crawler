@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Latitude-E5430-i5-2-7GHz-4GB-320GB-DVD-Win-10-Pro-64-Laptop-Computer-B/168180222'
+p7
+sS'price'
+p8
+V$199.26
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVModel
+p14
+VLatitude E5430
+p15
+ssS'title'
+p16
+VRefurbished Dell Latitude E5430 i5 2.7GHz 4GB 320GB DVD Win 10 Pro 64 Laptop Computer B
+p17
+sb.

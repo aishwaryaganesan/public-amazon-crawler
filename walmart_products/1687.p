@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/HP-OMEN-17-17-3-UHD-4K-VR-Ready-Gaming-Business-Laptop-Intel-i7-Quad-Core-2TB-HDD-256GB-SSD-17-3-inch-UHD-3840-x-2160-16GB-RAM-GeForce-GTX-1070-Win-1/173118181'
+p7
+sS'price'
+p8
+V$2,308.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V17.3
+p15
+sVHard Drive Capacity
+p16
+V2000
+p17
+ssS'title'
+p18
+VHP OMEN 17 17.3'' UHD 4K VR Ready Gaming and Business Laptop (Intel i7 Quad Core, 2TB HDD + 256GB SSD, 17.3 inch UHD 3840 x 2160, 16GB RAM, GeForce GTX 1070, Win 10 Pro)
+p19
+sb.

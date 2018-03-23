@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-ThinkPad-T440p-2-6GHz-i5-4GB-320GB-Windows-10-Pro-64-Laptop-B-Camera/201287057'
+p7
+sS'price'
+p8
+V$285.75
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVModel
+p14
+VThinkPad T440p
+p15
+ssS'title'
+p16
+VRefurbished Lenovo ThinkPad T440p 2.6GHz i5 4GB 320GB Windows 10 Pro 64 Laptop B Camera
+p17
+sb.

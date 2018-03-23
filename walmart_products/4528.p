@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Star-Wars-Special-Edition-15-an050nr-15-6-Inch-Laptop-Intel-Core-i5-6-GB-RAM-1-TB-HDD/141238084'
+p7
+sS'price'
+p8
+V$548.90
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V15.6
+p15
+sVHard Drive Capacity
+p16
+V1000
+p17
+ssS'title'
+p18
+VRefurbished HP Star Wars Special Edition 15-an050nr 15.6-Inch Laptop (Intel Core i5, 6 GB RAM, 1 TB HDD)
+p19
+sb.

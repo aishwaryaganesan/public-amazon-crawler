@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-ThinkPad-T440-20B6009TUS-LED-Ultrabook-14-Inch-HD-Intel-Core-i3-4030U-2C-1-9GHz-3MB-1600MHz-Black/105672499'
+p7
+sS'price'
+p8
+V$398.90
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVOperating System
+p14
+VMicrosoft Windows
+p15
+sVmanufacturer_part_number
+p16
+V20b6009tus
+p17
+ssS'title'
+p18
+VRefurbished Lenovo ThinkPad T440 20B6009TUS LED Ultrabook (14-Inch HD, Intel Core, i3-4030U 2C, 1.9GHz, 3MB, 1600MHz) Black
+p19
+sb.

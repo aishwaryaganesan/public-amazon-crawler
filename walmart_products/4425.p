@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Panasonic-ToughBook-CF-30-Intel-Core-Duo-1600-MHz-80GB-HDD-3072mb-13-0-WideScreen-LCD-Windows-7-Pro-32-Bit-Refurbished/121939116'
+p7
+sS'price'
+p8
+V$345.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VPanasonic
+p13
+sVScreen Size
+p14
+V13.0
+p15
+ssS'title'
+p16
+VPanasonic ToughBook CF-30 Intel Core Duo 1600 MHz 80GB HDD 3072mb  13.0\u201d WideScreen LCD Windows 7 Pro 32 Bit Refurbished
+p17
+sb.

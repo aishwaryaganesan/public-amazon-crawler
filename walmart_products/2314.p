@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/HP-15-6-15-bs078cl-HD-Notebook-Intel-Core-i7-7500U-Processor-8GB-Memory-2TB-Hard-Drive-DVD-Writer-Windows-10-Home-20DV74UA-ABA/189244208'
+p7
+sS'price'
+p8
+V$648.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVModel
+p14
+VHP 15-BS078
+p15
+sVManufacturer Part Number
+p16
+V2DV74UA
+p17
+ssS'title'
+p18
+VHP 15.6" 15-bs078cl HD Notebook, Intel Core i7-7500U Processor, 8GB Memory, 2TB Hard Drive, DVD-Writer, Windows 10 Home - 20DV74UA#ABA
+p19
+sb.

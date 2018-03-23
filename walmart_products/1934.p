@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Acer-CB3-431-C3WS-Celeron-N3160-Quad-Core-1-6GHz-4GB-32GB-FHD-Chromebook-Chrome-Refurbished/128632904'
+p7
+sS'price'
+p8
+V$279.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAcer
+p13
+sVOperating System
+p14
+VChrome OS
+p15
+sVCondition
+p16
+VRefurbished
+p17
+sVmanufacturer_part_number
+p18
+Vcb3-431-c3ws
+p19
+ssS'title'
+p20
+VAcer CB3-431-C3WS Celeron N3160 Quad-Core 1.6GHz 4GB 32GB FHD Chromebook Chrome - Refurbished
+p21
+sb.

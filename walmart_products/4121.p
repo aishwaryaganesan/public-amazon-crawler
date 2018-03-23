@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Apple-MacBook-Pro-Core-i5-2-5GHz-13-3-4GB-RAM-500GB-Hard-Drive-MD101LL-A-Mid-2012/142471332'
+p7
+sS'price'
+p8
+V$589.44
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVHard Drive Capacity
+p14
+V500
+p15
+ssS'title'
+p16
+VRefurbished Apple MacBook Pro "Core i5" 2.5GHz 13.3" 4GB RAM, 500GB Hard Drive (MD101LL/A)(Mid-2012)
+p17
+sb.

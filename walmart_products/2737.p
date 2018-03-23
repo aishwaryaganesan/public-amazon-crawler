@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Vizio-CT14-A0-14-Inch-Thin-Light-Ultrabook-Laptop-PC-1-80GHz-Intel-Core-i3-3217U-Processor-4GB-RAM-128GB-SSD-Windows-7-Home-Pr/164046993'
+p7
+sS'price'
+p8
+V$379.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VVIZIO
+p13
+sVHard Drive Capacity
+p14
+V128
+p15
+ssS'title'
+p16
+VRefurbished Vizio CT14-A0 14-Inch Thin Light Ultrabook Laptop PC (1.80GHz Intel Core i3-3217U Processor, 4GB RAM 128GB SSD Windows 7 Home Pr
+p17
+sb.

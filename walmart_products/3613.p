@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Apple-MacBook-Air-11-6-1-4-GHz-Intel-Core-64GB-SSD-2-GB-RAM-MC505LL-A/578435423'
+p7
+sS'price'
+p8
+V$309.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V11.6\u005c"
+p15
+sVModel
+p16
+VMC505LL/A
+p17
+sVManufacturer Part Number
+p18
+VMC505LL/A
+p19
+ssS'title'
+p20
+VRefurbished Apple MacBook Air 11.6" 1.4 GHz Intel Core, 64GB SSD, 2 GB RAM (MC505LL/A)
+p21
+sb.

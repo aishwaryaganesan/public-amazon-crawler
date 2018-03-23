@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-IdeaPad-FLEX-AMD-a6-5200-Laptop-PC-2-0GHz-4GB-500GB-WiFi-BT-15-6-Windows-8-1-Touchscreen/623213704'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVHard Drive Capacity
+p14
+V500
+p15
+ssS'title'
+p16
+VRefurbished IdeaPad FLEX AMD a6-5200 Laptop PC 2.0GHz 4GB 500GB WiFi BT 15.6 Windows 8.1 - Touchscreen
+p17
+sb.

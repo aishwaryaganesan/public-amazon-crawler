@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-EliteBook-8460p-2-5GHz-i5-2GB-250GB-DRW-Windows-10-Home-32-Laptop-CAM/640585426'
+p7
+sS'price'
+p8
+V$142.80
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVModel
+p14
+VEliteBook 8460p
+p15
+ssS'title'
+p16
+VRefurbished HP EliteBook 8460p 2.5GHz i5 2GB 250GB DRW Windows 10 Home 32 Laptop CAM
+p17
+sb.

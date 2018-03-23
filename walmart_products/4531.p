@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Asus-11-6-Laptop-Intel-Atom-2GB-Memory-32GB-Flash-Memory-Blue/851935067'
+p7
+sS'price'
+p8
+V$168.90
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVHard Drive Capacity
+p14
+V32
+p15
+ssS'title'
+p16
+VRefurbished Asus - 11.6 Laptop - Intel Atom - 2GB Memory - 32GB Flash Memory - Blue
+p17
+sb.

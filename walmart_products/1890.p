@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/EBK-2600mAh-Long-life-battery-for-Acer-Chromebook-13-Aspire-E3-111-TravelMate-B115-M-B115-MP-X349-P276-AC14B18J/204519283'
+p7
+sS'price'
+p8
+V$37.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VEBK TRADING INC.
+p13
+ssS'title'
+p14
+VEBK 2600mAh Long life battery for Acer Chromebook 13 Aspire E3-111 TravelMate B115-M B115-MP X349 P276 AC14B18J
+p15
+sb.

@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Latitude-E4310-Laptop-Intel-Core-i5-540m-2-53Ghz-4GB-500GB-13-3in-W7Pro/868544134'
+p7
+sS'price'
+p8
+V$268.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVHard Drive Capacity
+p14
+V500
+p15
+ssS'title'
+p16
+VRefurbished Dell Latitude E4310 Laptop Intel Core i5-540m 2.53Ghz 4GB 500GB 13.3in W7Pro
+p17
+sb.

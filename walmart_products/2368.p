@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-ProBook-6560B-i5-2-5GHz-4GB-320GB-DVD-Windows-10-Pro-64-Laptop-B-Camera/136093849'
+p7
+sS'price'
+p8
+V$263.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVModel
+p14
+VProBook 6560B
+p15
+sVManufacturer Part Number
+p16
+VNB-HP-PROBOOK_6560B-NB-i5-2.5-4-320-RW-Y-10P-A
+p17
+ssS'title'
+p18
+VRefurbished HP ProBook 6560B i5 2.5GHz 4GB 320GB DVD Windows 10 Pro 64 Laptop B Camera
+p19
+sb.

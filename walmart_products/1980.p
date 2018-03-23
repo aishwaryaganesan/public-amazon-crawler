@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Acer-CP5-471-312N-14-34-16-9-Chromebook-1920-x-1080-ComfyView-In-plane-Switching-IPS-Technology-Intel-Core-i3-i3-6100U-Dual-core-2-Core-2-30-GHz-8-GB/592980266'
+p7
+sS'price'
+p8
+V$683.17
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VACER- CHROME PRODUCTS
+p13
+sVScreen Size
+p14
+V14
+p15
+sVmanufacturer_part_number
+p16
+Vcp5-471-312n
+p17
+ssS'title'
+p18
+VAcer CP5-471-312N 14" 16:9 Chromebook - 1920 x 1080 - ComfyView, In-plane Switching (IPS) Technology - Intel Core i3 i3-6100U Dual-core (2 Core) 2.30 GHz - 8 GB LPDDR3 - 32 GB Flash Memory Ca
+p19
+sb.

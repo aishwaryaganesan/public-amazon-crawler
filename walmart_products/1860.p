@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-IdeaPad-N20P-11-6Inch-Touchscreen-Chromebook-Silver-2GB-RAM-Certified-Refurbished-59418460/430169703'
+p7
+sS'price'
+p8
+V$249.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVScreen Size
+p14
+V11.6
+p15
+ssS'title'
+p16
+VRefurbished Lenovo IdeaPad N20P 11.6Inch Touchscreen Chromebook Silver 2GB RAM Certified Refurbished 59418460
+p17
+sb.

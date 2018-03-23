@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-Ideapad-510-15-6-FHD-Laptop-Intel-Core-i5-8-GB-RAM-1TB-HDD-NVIDIA-GeForce-940MX-Windows-10-80SR002SUS/926742527'
+p7
+sS'price'
+p8
+V$529.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVHard Drive Capacity
+p14
+V1000
+p15
+ssS'title'
+p16
+VRefurbished Lenovo Ideapad 510 - 15.6 FHD Laptop (Intel Core i5, 8 GB RAM, 1TB HDD, NVIDIA GeForce 940MX, Windows 10) 80SR002SUS
+p17
+sb.

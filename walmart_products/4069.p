@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-MB402LL-A-Macbook-13-3-Notebook-White-Certified-Refurbished/412335823'
+p7
+sS'price'
+p8
+V$399.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V13.3 in
+p15
+sVmanufacturer_part_number
+p16
+Vmb402ll/a
+p17
+ssS'title'
+p18
+VApple MB402LL/A Macbook 13.3" Notebook (White) (Certified Refurbished)
+p19
+sb.

@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/REFURBISHED-HP-Elitebook-8540p-15-6-Intel-i5-2-4GHz-4GB-250GB-HDD-Win-7-Pro-w-Dock/109118606'
+p7
+sS'price'
+p8
+V$189.99
+p9
+sS'properties'
+p10
+(dp11
+VHard Drive Capacity
+p12
+V250
+p13
+sVBrand
+p14
+VHP
+p15
+sVModel
+p16
+V8540pd
+p17
+sVManufacturer Part Number
+p18
+VBT082USD
+p19
+ssS'title'
+p20
+VREFURBISHED HP Elitebook 8540p 15.6" Intel i5 2.4GHz 4GB  250GB HDD Win 7 Pro w/ Dock
+p21
+sb.

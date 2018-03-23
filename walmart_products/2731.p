@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Dell-XPS13-XPS13-9343-13-3-inch-Ultrabook-Computer-2-2-GHz-Intel-Core-i5-Processor-4-GB-DDR3-SDRAM-128-GB-Solid-State-Hard-Drive-Windows-8/110312065'
+p7
+sS'price'
+p8
+V$949.11
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVScreen Size
+p14
+V13.3
+p15
+sVManufacturer Part Number
+p16
+V9343
+p17
+sVCondition
+p18
+VNew
+p19
+ssS'title'
+p20
+VDell XPS13 XPS13-9343 13.3-inch Ultrabook Computer (2.2 GHz Intel Core i5 Processor, 4 GB DDR3 SDRAM, 128 GB Solid State Hard Drive, Windows 8)
+p21
+sb.

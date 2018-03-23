@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-15-f018dx-16-inch-Laptop-1-9GHz-Intel-Core-i3-4030U-Processor-6GB-DDR3L-SDRAM-750GB-Hard-Drive-Windows-8-1-64-bit/124775407'
+p7
+sS'price'
+p8
+V$279.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVHard Drive Capacity
+p14
+V750
+p15
+ssS'title'
+p16
+VRefurbished HP 15-f018dx 16-inch Laptop (1.9GHz Intel Core i3-4030U Processor, 6GB DDR3L SDRAM, 750GB Hard Drive, Windows 8.1 64-bit)
+p17
+sb.

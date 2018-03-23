@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-XPS-13-9343-13-3-Intel-Core-i5-2-20GHz-4GB-SDRAM-RAM-128GB-SSD-Windows-10-Home-64-bit-XPS9343-1818SLV/117538970'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVHard Drive Capacity
+p14
+V128
+p15
+ssS'title'
+p16
+VRefurbished Dell XPS 13-9343 13.3 Intel Core i5 2.20GHz 4GB SDRAM RAM 128GB SSD Windows 10 Home 64-bit XPS9343-1818SLV
+p17
+sb.

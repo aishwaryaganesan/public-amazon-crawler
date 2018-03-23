@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Inspiron-11-3162-Series-Notebook-non-touch-I3162-0003BLU-REFB-LCD-Notebook/620330498'
+p7
+sS'price'
+p8
+V$210.98
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVOperating System
+p14
+VMicrosoft Windows
+p15
+sVCondition
+p16
+VRefurbished
+p17
+ssS'title'
+p18
+VRefurbished "Dell Inspiron 11 3162 Series Notebook (non-touch) I3162-0003BLU-REFB LCD Notebook"
+p19
+sb.

@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Manufacturer-Refurbished-HP-ProBook-G1-P0B72LT-14-Laptop-Intel-Core-i7-4600M-2-9GHz-8GB-1TB-Win8-1/127892761'
+p7
+sS'price'
+p8
+V$469.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVModel
+p14
+V640 G1-RF
+p15
+sVManufacturer Part Number
+p16
+V640 G1-RF
+p17
+ssS'title'
+p18
+VManufacturer Refurbished - HP ProBook G1 (P0B72LT) 14" Laptop Intel Core i7-4600M 2.9GHz 8GB 1TB Win8.1
+p19
+sb.

@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Aspire-C710-2457-Intel-Celeron-847-ChromeBook-PC-1-1GHz-4GB-16GB-SSD-WiFi-11-6-Google-Chrome/172696109'
+p7
+sS'price'
+p8
+V$168.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAcer
+p13
+sVHard Drive Capacity
+p14
+V16
+p15
+ssS'title'
+p16
+VRefurbished Aspire C710-2457 Intel Celeron 847 ChromeBook PC 1.1GHz 4GB 16GB SSD WiFi 11.6 Google Chrome
+p17
+sb.

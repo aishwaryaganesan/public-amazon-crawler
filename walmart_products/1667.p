@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Sager-NP8157-Clevo-P650HS-G-15-6-FHD-IPS-Matte-Screen-w-G-Sync-Gaming-Laptop-Intel-Core-i7-7700HQ-GTX1070-32GB-DDR4-500GB-M-2-SSD-1TB-HDD-Win10-Kabyl/728109471'
+p7
+sS'price'
+p8
+V$2,009.00
+p9
+sS'properties'
+p10
+(dp11
+VModel
+p12
+VFPL-00001
+p13
+sVBrand
+p14
+VMicrosoft
+p15
+sVManufacturer Part Number
+p16
+VFPL-00001
+p17
+sVFeatures
+p18
+VCPO MICROSOFT SURFACEPRO-2017C I7/16/512
+p19
+ssS'title'
+p20
+V"Microsoft Surface Pro-2017c I7/16/512 "
+p21
+sb.

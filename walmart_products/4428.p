@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-EliteBook-850-G3-15-6-FHD-Laptop-Intel-i7-6500U-16-GB-Memory-1TB-SSD-Windows-10-Pro-64/115533837'
+p7
+sS'price'
+p8
+V$1,199.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V15.6
+p15
+sVHard Drive Capacity
+p16
+V1000
+p17
+ssS'title'
+p18
+VRefurbished HP EliteBook 850 G3 15.6' FHD Laptop (Intel i7-6500U, 16 GB Memory, 1TB SSD, Windows 10 Pro 64)
+p19
+sb.

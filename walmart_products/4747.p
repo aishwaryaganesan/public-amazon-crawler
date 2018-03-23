@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Sparepart-IBM-Inverter-91P7422/264030410'
+p7
+sS'price'
+p8
+V$149.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVRecommended Location
+p14
+VIndoor
+p15
+ssS'title'
+p16
+VSparepart: IBM Inverter, 91P7422
+p17
+sb.

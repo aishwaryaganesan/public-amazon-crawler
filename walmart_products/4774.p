@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Latitude-E6430-i5-2-6GHz-4GB-250GB-DVD-Windows-10-Pro-64-Laptop-B/997432164'
+p7
+sS'price'
+p8
+V$209.10
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVModel
+p14
+VLatitude E6430
+p15
+ssS'title'
+p16
+VRefurbished Dell Latitude E6430 i5 2.6GHz 4GB 250GB DVD Windows 10 Pro 64 Laptop B
+p17
+sb.

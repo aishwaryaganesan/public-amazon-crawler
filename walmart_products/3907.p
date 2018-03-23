@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-15-4-MacBook-Pro-Laptop-Computer-Retina-Display-Force-Touch-Trackpad-FJLQ2LL-A-Laptop-Sleeve-Microfiber-Cleaning-Cloth-Certified-Refurbished/936987505'
+p7
+sS'price'
+p8
+V$1,579.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VSSE
+p13
+sVScreen Size
+p14
+V15.4
+p15
+ssS'title'
+p16
+VApple 15.4" MacBook Pro Laptop Computer with Retina Display & Force Touch Trackpad (FJLQ2LL/A) + Laptop Sleeve + Microfiber Cleaning Cloth (Certified Refurbished)
+p17
+sb.

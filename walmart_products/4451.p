@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/REFURBISHED-Dell-Latitude-E6510-i5-2-4GHz-8GB-320GB-CMB-Windows-10-Pro-64-Laptop/148812310'
+p7
+sS'price'
+p8
+V$287.28
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVModel
+p14
+VLatitude E6510
+p15
+sVManufacturer Part Number
+p16
+V9SIA9UW53D6356
+p17
+ssS'title'
+p18
+VREFURBISHED Dell Latitude E6510 i5 2.4GHz 8GB 320GB CMB Windows 10 Pro 64 Laptop
+p19
+sb.

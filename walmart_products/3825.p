@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-MacBook-Pro-MF841LL-A-13-3-Inch-Laptop-with-Retina-Display-Certified-Pre-Owned/239380514'
+p7
+sS'price'
+p8
+V$1,649.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V13.3
+p15
+sVManufacturer Part Number
+p16
+VMF841LLACPO
+p17
+ssS'title'
+p18
+VApple MacBook Pro MF841LL/A 13.3-Inch Laptop with Retina Display (Certified Pre-Owned)
+p19
+sb.

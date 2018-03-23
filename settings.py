@@ -22,6 +22,9 @@ proxy_port = ""
 
 # Crawling Logic
 start_file = os.path.join(current_dir, "start-urls.txt")
+a_URL_file = os.path.join(current_dir, 'amazon-product-URLs.txt')
+a_products_path = os.path.join(current_dir, 'amazon_products/')
+
 w_start_file = os.path.join(current_dir, 'w-start-urls.txt')
 w_URL_file = os.path.join(current_dir, 'walmart-product-URLs.txt')
 w_products_path = os.path.join(current_dir, 'walmart_products/')

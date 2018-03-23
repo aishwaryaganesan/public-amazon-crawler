@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Apple-MacBook-Pro-MD102LL-A-i7-2-9GHz-8GB-750GB-OS-X-10-6-Snow-Leopard-13-DVD/925836150'
+p7
+sS'price'
+p8
+V$679.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVModel
+p14
+VMacBook Pro
+p15
+ssS'title'
+p16
+VRefurbished Apple MacBook Pro MD102LL/A i7 2.9GHz 8GB 750GB OS X 10.6 Snow Leopard 13" DVD
+p17
+sb.

@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/ASUS-Chromebook-Flip-C213SA-YS02-11-6-inch-Intel-Celeron-N3350-1-1GHz-4GB-LPDDR4-32GB-eMMC-TPM-USB3-1-Chrome-Notebook/583166521'
+p7
+sS'price'
+p8
+V$539.21
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVHard Drive Capacity
+p14
+V32 GB
+p15
+sVmanufacturer_part_number
+p16
+Vc213sa-ys02
+p17
+ssS'title'
+p18
+VASUS Chromebook Flip C213SA-YS02 11.6 inch Intel Celeron N3350 1.1GHz/ 4GB LPDDR4/ 32GB eMMC + TPM/ USB3.1/ Chrome Notebook
+p19
+sb.

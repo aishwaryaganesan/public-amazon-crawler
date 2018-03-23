@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/HP-ProBook-x360-11-G1-EE-Notebook-1FY93UT-ABA-ProBook-x360-11-G1-EE-Notebook/449355565'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVmanufacturer_part_number
+p14
+V1fy93ut # aba
+p15
+ssS'title'
+p16
+V"HP ProBook x360 11 G1 EE Notebook  1FY93UT#ABA ProBook x360 11 G1 EE Notebook"
+p17
+sb.

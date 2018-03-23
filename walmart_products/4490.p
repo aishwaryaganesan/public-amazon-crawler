@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Gateway-15-6-Windows-8-Laptop-Celeron-B830-1-8GHz-4GB-320GB-NE56R31u/165844374'
+p7
+sS'price'
+p8
+V$259.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VGateway
+p13
+sVHard Drive Capacity
+p14
+V320
+p15
+ssS'title'
+p16
+VRefurbished Gateway 15.6 Windows 8 Laptop Celeron B830 1.8GHz 4GB 320GB | NE56R31u
+p17
+sb.

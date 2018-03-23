@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Acer-Chromebook-cp5-471-c0ex-14in-1366x768-chromeos-intel-Celeron-3885u-4gb-Lpddr3-Sd/169431670'
+p7
+sS'price'
+p8
+V$324.79
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VToshiba
+p13
+sVOperating System
+p14
+VChrome OS
+p15
+sVCondition
+p16
+VNew
+p17
+ssS'title'
+p18
+VAcer Chromebook,cp5-471-c0ex,14in,1366x768,chromeos,intel Celeron 3885u,4gb Lpddr3 Sd
+p19
+sb.

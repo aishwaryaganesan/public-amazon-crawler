@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Latitude-D820-15-4-Notebook-120GB-2GB-DVD-Windows-7-Professional-64-Bit/129909517'
+p7
+sS'price'
+p8
+V$116.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVScreen Size
+p14
+V15.4
+p15
+ssS'title'
+p16
+VRefurbished Latitude D820 15.4" Notebook - 120GB, 2GB, DVD, Windows 7 Professional 64 Bit
+p17
+sb.

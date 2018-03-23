@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Manufacturer-Refurbished-HP-Stream-14-AX010NR-14-Laptop-Intel-Celeron-N3060-1-6GHz-4GB-32GB-eMMC-Win10/373482601'
+p7
+sS'price'
+p8
+V$159.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V14
+p15
+sVModel
+p16
+V14-AX010NR-RF
+p17
+sVManufacturer Part Number
+p18
+V14-AX010NR-RF
+p19
+ssS'title'
+p20
+VManufacturer Refurbished - HP Stream 14-AX010NR 14" Laptop Intel Celeron N3060 1.6GHz 4GB 32GB eMMC Win10
+p21
+sb.

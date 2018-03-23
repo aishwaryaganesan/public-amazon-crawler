@@ -1,0 +1,52 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Asus-VivoMini-UN62-M037M-Barebone-Computer-Intel-Core-i5-4210U-Refurbished/455078267'
+p7
+sS'price'
+p8
+V$263.97
+p9
+sS'properties'
+p10
+(dp11
+VOperating System
+p12
+VMicrosoft Windows
+p13
+sVVideo Game Platform
+p14
+VUnknown
+p15
+sVBrand
+p16
+VASUS
+p17
+sVModel
+p18
+VUN62-M037M
+p19
+sVCondition
+p20
+VRefurbished
+p21
+sVmanufacturer_part_number
+p22
+Vun62-m037m
+p23
+ssS'title'
+p24
+VAsus VivoMini UN62-M037M Barebone Computer - Intel Core i5-4210U (Refurbished)
+p25
+sb.

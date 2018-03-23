@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/REFURBISHED-Alienware-18-ALW18-4001sLV-18-4-Laptop-2-5-GHz-i7-4710MQ-80GB-SSD-1TB-HDD/427720633'
+p7
+sS'price'
+p8
+V$1,699.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAlienware
+p13
+sVScreen Size
+p14
+V18.4
+p15
+sVHard Drive Capacity
+p16
+V1000
+p17
+ssS'title'
+p18
+VREFURBISHED Alienware 18 ALW18-4001sLV 18.4" Laptop 2.5 GHz i7-4710MQ 80GB SSD 1TB HDD
+p19
+sb.

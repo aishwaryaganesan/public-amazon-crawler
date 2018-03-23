@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Elitebook-8440p-Laptop-Intel-Core-i5-M540-2-53GHz-4GB-750GB-14in-W7Pro/152671109'
+p7
+sS'price'
+p8
+V$238.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V14
+p15
+sVHard Drive Capacity
+p16
+V750
+p17
+ssS'title'
+p18
+VRefurbished HP Elitebook 8440p Laptop Intel Core i5-M540 2.53GHz 4GB 750GB 14in W7Pro
+p19
+sb.

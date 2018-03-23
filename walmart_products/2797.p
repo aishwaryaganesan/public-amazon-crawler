@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/8Cell-OEM-Quality-VK04-Laptop-Notebook-Battery-HP-Pavilion-Sleekbook-Ultrabook-14-15-Series-Fit-HSTNN-YB4D-H4Q45AA-694864-851-695192-001-TPN-Q113-TPN/836630095'
+p7
+sS'price'
+p8
+V$32.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VEBK TRADING INC.
+p13
+ssS'title'
+p14
+V8Cell OEM Quality VK04 Laptop Notebook Battery for HP Pavilion Sleekbook Ultrabook 14 15 Series, Fit: HSTNN-YB4D H4Q45AA 694864-851 695192-001 TPN-Q113, TPN-Q114, TPN-Q115
+p15
+sb.

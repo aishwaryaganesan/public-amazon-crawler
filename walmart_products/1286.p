@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Elitebook-Revolve-810-G2-F7W47UT-11-6-LED-Touchscreen-Tablet-PC-Intel-i7-4600U-2-10-GHz-8GB-DDR3-256GB-HDD/746504182'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVHard Drive Capacity
+p14
+V256
+p15
+ssS'title'
+p16
+VRefurbished HP Elitebook Revolve 810 G2 F7W47UT 11.6 LED Touchscreen Tablet PC Intel i7-4600U 2.10 GHz 8GB DDR3 256GB HDD
+p17
+sb.

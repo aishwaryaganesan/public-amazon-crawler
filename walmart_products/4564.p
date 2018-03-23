@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Pavilion-15-ab153nr-15-6-Laptop-6th-Gen-AMD-Quad-Core-A10-Processor-8GB-RAM-1TB-HD-Windows-10/163172698'
+p7
+sS'price'
+p8
+V$349.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVHard Drive Capacity
+p14
+V1000
+p15
+ssS'title'
+p16
+VRefurbished HP Pavilion 15-ab153nr 15.6 Laptop, 6th Gen AMD Quad-Core A10 Processor, 8GB RAM, 1TB HD, Windows 10,
+p17
+sb.

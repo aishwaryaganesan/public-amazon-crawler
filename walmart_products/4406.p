@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-IdeaPad-15-6-Laptop-i5-2-5Ghz-8GB-750GB-Windows-8-Gray/156369979'
+p7
+sS'price'
+p8
+V$349.04
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVProcessor Speed
+p14
+V2
+p15
+sVHard Drive Capacity
+p16
+V750
+p17
+ssS'title'
+p18
+VRefurbished Lenovo IdeaPad 15.6 Laptop i5 2.5Ghz 8GB 750GB Windows 8 - Gray
+p19
+sb.

@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/PcProfessional-Screen-Protector-Set-2-HP-15-6-15-BA030NR-15-BA010NR-15-BA020NR-15-bc067nr-15-BA040NR-Touch-Screen-Laptop-Anti-Glare-Anti-Scratch/130307990'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VPcProfessional
+p13
+sVCompatible Brands
+p14
+VHP
+p15
+ssS'title'
+p16
+VPcProfessional Screen Protector (Set of 2) for HP 15.6" 15-BA030NR 15-BA010NR 15-BA020NR 15-bc067nr 15-BA040NR Touch Screen Laptop Anti Glare Anti Scratch
+p17
+sb.

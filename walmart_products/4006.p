@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-13-3-MacBook-Air-Laptop-Computer-MMGG2LL-A-Laptop-Sleeve-Microfiber-Cleaning-Cloth-Certified-Refurbished/160739253'
+p7
+sS'price'
+p8
+V$1,069.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VSSE
+p13
+sVScreen Size
+p14
+V13.3
+p15
+ssS'title'
+p16
+VApple 13.3" MacBook Air Laptop Computer (MMGG2LL/A) + Laptop Sleeve + Microfiber Cleaning Cloth (Certified Refurbished)
+p17
+sb.

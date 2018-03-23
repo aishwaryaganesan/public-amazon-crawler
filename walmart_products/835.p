@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Folio-9480M-2-0GHz-i5-4GB-180SSD-Windows-10-Pro-64-14-Laptop-B/631266558'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V14
+p15
+sVModel
+p16
+VFolio 9480M
+p17
+ssS'title'
+p18
+VRefurbished HP Folio 9480M 2.0GHz i5 4GB 180SSD Windows 10 Pro 64 14" Laptop B
+p19
+sb.

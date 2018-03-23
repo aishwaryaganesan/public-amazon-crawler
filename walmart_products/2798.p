@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/VK04-5200mAh-Extended-Life-Battery-HP-Pavilion-TouchSmart-14-b109-14-b109wm-14-b010us-14-b015dx-14-b137ca-14-b150us-14-b173cl-15-b142dx-EBK-694864-85/825799647'
+p7
+sS'price'
+p8
+V$32.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VEBK TRADING INC.
+p13
+ssS'title'
+p14
+VVK04 5200mAh Extended Life Battery for HP Pavilion TouchSmart 14-b109 14-b109wm 14-b010us 14-b015dx 14-b137ca 14-b150us 14-b173cl 15-b142dx by EBK, 694864-851 695192-001
+p15
+sb.

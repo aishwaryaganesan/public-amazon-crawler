@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/MSI-PE62-7RD-1095-15-6-inch-Intel-Core-i7-7700HQ-2-8GHz-32GB-DDR4-1TB-HDD-512GB-SSD-GTX-1050-USB3-0-Windows-10-Pro-Notebook-Aluminum-Silver/623046999'
+p7
+sS'price'
+p8
+V$2,028.59
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VMSI
+p13
+sVOperating System
+p14
+VMicrosoft Windows
+p15
+sVCondition
+p16
+VNew
+p17
+ssS'title'
+p18
+VMSI PE62 7RD-1095 15.6 inch Intel Core i7-7700HQ 2.8GHz/ 32GB DDR4/ 1TB HDD + 512GB SSD/ GTX 1050/ USB3.0/ Windows 10 Pro Notebook (Aluminum Silver)
+p19
+sb.

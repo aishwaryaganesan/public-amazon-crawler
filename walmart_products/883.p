@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Manufacturer-Refurbished-HP-ProBook-X1F25UP-11-6-Touch-Laptop-Intel-i3-6100U-2-3GHz-8GB-128GB-SSD-W10/937559164'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V11.6\u005c"
+p15
+sVModel
+p16
+V-RF
+p17
+sVManufacturer Part Number
+p18
+V-RF
+p19
+ssS'title'
+p20
+VManufacturer Refurbished - HP ProBook X1F25UP 11.6" Touch Laptop Intel i3-6100U 2.3GHz 8GB 128GB SSD W10
+p21
+sb.

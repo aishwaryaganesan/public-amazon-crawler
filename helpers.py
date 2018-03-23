@@ -25,7 +25,8 @@ def make_request(url, return_soup=True, walmart=False):
         r = urllib2.urlopen(url)
         #r = requests.get(url, headers=settings.headers, proxies=proxies, timeout=10000000)
     except Exception as e:
-        log("WARNING: Request for {} failed, trying again.".format(url))
+        #log("WARNING: Request for {} failed, trying again.".format(url))
+        return make_request(url, return_soup, walmart)
         if return_soup:
             return None, None
         return None

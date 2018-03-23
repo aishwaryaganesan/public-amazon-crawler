@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Laptop-EliteBook-8570w-Intel-Quad-Core-i7-3720QM-2-6GHz-16GB-Memory-256GB-SSD-NVIDIA-Quadro-K1000M/392586282'
+p7
+sS'price'
+p8
+V$899.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVHard Drive Capacity
+p14
+V256 GB
+p15
+sVCondition
+p16
+VRefurbished
+p17
+ssS'title'
+p18
+VRefurbished HP Laptop EliteBook 8570w Intel Quad Core i7 3720QM 2.6GHz/ 16GB Memory /256GB SSD /NVIDIA Quadro K1000M
+p19
+sb.

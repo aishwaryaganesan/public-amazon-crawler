@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Black-15-6-Inspiron-15-5552-Laptop-PC-with-Intel-Celeron-N3050-Processor-4GB-Memory-500GB-Hard-Drive-and-Windows-10-Home/159435945'
+p7
+sS'price'
+p8
+V$299.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVHard Drive Capacity
+p14
+V500
+p15
+ssS'title'
+p16
+VRefurbished Dell Black 15.6 Inspiron 15 5552 Laptop PC with Intel Celeron N3050 Processor, 4GB Memory, 500GB Hard Drive and Windows 10 Home
+p17
+sb.

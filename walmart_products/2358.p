@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-ThinkPad-Twist-S230u-2-0GHz-i7-8GB-128SSD-Windows-10-Pro-64-Laptop-B/492049429'
+p7
+sS'price'
+p8
+V$223.50
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVModel
+p14
+VThinkPad Twist S230u
+p15
+ssS'title'
+p16
+VRefurbished Lenovo ThinkPad Twist S230u 2.0GHz i7 8GB 128SSD Windows 10 Pro 64 Laptop B
+p17
+sb.

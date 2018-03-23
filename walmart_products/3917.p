@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-MacBook-Pro-Core-i7-2860QM-Quad-Core-2-5GHz-4GB-750GB-DVD-RW-Radeon-HD-6770M-15-4-Notebook-OSX-Late-2011/144891929'
+p7
+sS'price'
+p8
+V$866.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V15.4
+p15
+sVHard Drive Capacity
+p16
+V750
+p17
+sVCondition
+p18
+VNew
+p19
+ssS'title'
+p20
+VApple MacBook Pro Core i7-2860QM Quad-Core 2.5GHz 4GB 750GB DVD±RW Radeon HD 6770M 15.4" Notebook OSX (Late 2011)
+p21
+sb.

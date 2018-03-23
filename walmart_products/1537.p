@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/REFURBISHED-Dell-Alienware-15-R2-Intel-Core-i7-6700HQ-X4-2-6GHz-16GB-1TB-256GB-15-6-Win10-Black/295187015'
+p7
+sS'price'
+p8
+V$1,194.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAlienware
+p13
+sVScreen Size
+p14
+V15.6
+p15
+ssS'title'
+p16
+VREFURBISHED Dell Alienware 15 R2 Intel Core i7-6700HQ X4 2.6GHz 16GB 1TB+256GB 15.6" Win10,Black
+p17
+sb.

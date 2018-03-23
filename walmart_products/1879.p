@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/MightySkins-Protective-Skin-Decal-Cover-for-HP-Chromebook-11-6-2014-Touchscreen-Sticker-Skins-Red-Dragon/164832220'
+p7
+sS'price'
+p8
+V$18.99
+p9
+sS'properties'
+p10
+(dp11
+VColor
+p12
+VRed
+p13
+sVBrand
+p14
+VMightyskins
+p15
+sVManufacturer Part Number
+p16
+VHPCH11-Red Dragon
+p17
+ssS'title'
+p18
+VMightySkins Protective Skin Decal Cover for HP Chromebook 11.6" (2014) Touchscreen Sticker Skins Red Dragon
+p19
+sb.

@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Alienware-17-AW17R3-17-3-Inch-Full-HD-Gaming-Laptop-6th-Gen-Intel-Core-i7-512GB-SSD-16GB-Ram/152146523'
+p7
+sS'price'
+p8
+V$1,799.95
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VAlienware
+p13
+sVScreen Size
+p14
+V17.3
+p15
+ssS'title'
+p16
+VRefurbished Alienware 17 AW17R3 17.3-Inch Full HD Gaming Laptop, 6th Gen Intel Core i7 512GB SSD 16GB Ram
+p17
+sb.

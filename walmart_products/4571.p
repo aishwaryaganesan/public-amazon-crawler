@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Dell-Latitude-E6410-Intel-Core-i5-520M-2-4Ghz-4GB-DDR3-500GB-Hard-Drive-DVDRW-Windows-7-Refurbished/783336112'
+p7
+sS'price'
+p8
+V$229.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVProcessor Speed
+p14
+V2
+p15
+sVHard Drive Capacity
+p16
+V500
+p17
+ssS'title'
+p18
+VDell Latitude E6410 Intel Core i5 520M 2.4Ghz, 4GB DDR3, 500GB Hard Drive, DVDRW, Windows 7 Refurbished
+p19
+sb.

@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Manufacturer-Refurbished-Asus-T303UA-DH54T-12-6-Touch-Laptop-Core-i5-6200U-2-3GHz-8GB-512GB-W10-Asus-pen/872393578'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVScreen Size
+p14
+V12.6
+p15
+sVModel
+p16
+VT303UA-DH54T-RF
+p17
+sVManufacturer Part Number
+p18
+VT303UA-DH54T-RF
+p19
+ssS'title'
+p20
+VManufacturer Refurbished - Asus T303UA-DH54T 12.6" Touch Laptop Core i5-6200U 2.3GHz 8GB 512GB W10 Asus pen
+p21
+sb.

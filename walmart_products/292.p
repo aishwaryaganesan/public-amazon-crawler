@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Hp-Elitebook-Revolve-810-G2-Tablet-Convertible-Core-I7-4600U-2-1-Ghz-Windows-7-Pro-64-Bit/638028248'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVProcessor Speed
+p14
+V2
+p15
+ssS'title'
+p16
+VRefurbished Hp Elitebook Revolve 810 G2 Tablet - Convertible - Core I7 4600U / 2.1 Ghz - Windows 7 Pro 64-Bit /
+p17
+sb.

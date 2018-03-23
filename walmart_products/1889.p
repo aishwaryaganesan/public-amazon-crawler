@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/EBK-new-laptop-battery-Acer-Chromebook-13-CB5-311-C841-Chromebook-11-CB3-111-15-CB5-571-Acer-Aspire-E3-111-V3-111-R13-R3-P-N-AC14B8K-AC14B18J-KT-0030/548315705'
+p7
+sS'price'
+p8
+V$37.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VEBK TRADING INC.
+p13
+ssS'title'
+p14
+VEBK new laptop battery for Acer Chromebook 13 CB5-311 C841,Chromebook 11 CB3-111,15 CB5-571,Acer Aspire E3-111 V3-111 R13 R3,P/N:AC14B8K AC14B18J KT.0030G.004 4ICP5/57/80
+p15
+sb.

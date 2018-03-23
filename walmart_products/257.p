@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Superb-Choice-45W-Adapter-for-HP-Laptop-Pc-Convertible-X360-15-u002xx-15-u050ca/631018490'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VSuperb Choice
+p13
+ssS'title'
+p14
+VSuperb Choice® 45W Adapter for HP Laptop Pc Convertible X360 15-u002xx 15-u050ca
+p15
+sb.

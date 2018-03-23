@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-MacBook-Air-11-6-Inch-Laptop-MD711LL-B-Certified-Refurbished/178418972'
+p7
+sS'price'
+p8
+V$649.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V11.6 in
+p15
+sVmanufacturer_part_number
+p16
+Vmd711ll/b
+p17
+ssS'title'
+p18
+VApple MacBook Air 11.6 Inch Laptop MD711LL/B (Certified Refurbished)
+p19
+sb.

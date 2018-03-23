@@ -1,0 +1,205 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'https://www.amazon.com/GL702VM-G-SYNC-Gaming-i7-7700HQ-5400RPM/dp/B01MY1ZCM5'
+p7
+sS'price'
+p8
+V$1,637.51
+p9
+sS'properties'
+p10
+(dp11
+VDisplay Resolution Maximum
+p12
+V1920 x 1080 pixels
+p13
+sVItem model number
+p14
+VGL702VM-DS74
+p15
+sVInternational Shipping
+p16
+VThis item is not eligible for international shipping.  Learn More
+p17
+sVItem Dimensions
+p18
+V16.5 x 10.8 x 0.9 in
+p19
+sVDate First Available
+p20
+VJanuary 6, 2017
+p21
+sVHard Drive Rotational Speed
+p22
+V5400 RPM
+p23
+sVProcessor Count
+p24
+V4
+p25
+sVRAM Size
+p26
+V16 GB
+p27
+sVHard-Drive Size
+p28
+V1,000 GB
+p29
+sVWireless Type
+p30
+V802.11 A/C
+p31
+sVASIN
+p32
+VB01MY1ZCM5
+p33
+sVOperating System
+p34
+VWindows 10 Home
+p35
+sVBrand Name
+p36
+VAsus
+p37
+sVProcessor Brand
+p38
+VIntel
+p39
+sVDisplay Technology
+p40
+VLCD
+p41
+sVRAM
+p42
+V16 GB DDR4-SDRAM
+p43
+sVDomestic Shipping
+p44
+VCurrently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.
+p45
+sVProcessor (CPU) Manufacturer
+p46
+VIntel
+p47
+sVScreen Size
+p48
+V17.3 inches
+p49
+sVGraphics Coprocessor
+p50
+Vgeforce gtx
+p51
+sVOptical Drive Type
+p52
+VNone
+p53
+sVRAM Type
+p54
+VGDDR5
+p55
+sVMax Screen Resolution
+p56
+V1920 x 1080 pixels
+p57
+sVWireless Compatibility
+p58
+V802.11 A/C
+p59
+sVItem Weight
+p60
+V6 pounds
+p61
+sVItem Dimensions  L x W x H
+p62
+V10.8 x 16.5 x 0.9 inches
+p63
+sVHard Drive
+p64
+V1000 GB Hybrid Drive
+p65
+sVProcessor Speed
+p66
+V2.8 GHz
+p67
+sVProcessor
+p68
+V2.8 GHz None
+p69
+sVCustomer Reviews
+p70
+V/* \u000a    * Fix for UDP-1061. Average customer reviews has a small extra line on hover \u000a    * https://omni-grok.amazon.com/xref/src/appgroup/websiteTemplates/retail/SoftlinesDetailPageAssets/udp-intl-lock/src/legacy.css?indexName=WebsiteTemplates#40\u000a    */\u000a    .noUnderline a:hover { \u000a        text-decoration: none; \u000a    }\u000a\u000a\u000a\u000a\u000a    \u000a    \u000a    \u000a    \u000a        \u000a\u000a        \u000a        \u000a        \u000a\u000a        \u000a        \u000a        \u000a        \u000a		\u000a		\u000a		\u000a		\u000a		        \u000a		\u000a		\u000a		\u000a		\u000a		\u000a		\u000a		\u000a		        \u000a        \u000a\u000a        \u000a            \u000a            \u000a            \u000a                \u000a                \u000a                \u000a                    \u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a        \u000a            \u000a\u000a\u000a\u000a\u000a\u000a    \u000a        \u000a            \u000a                \u000a\u000a3.7 out of 5 stars\u000a                \u000a            \u000a        \u000a        \u000a    \u000a\u000a\u000a        \u000a        \u000a        \u000a        \u000a\u000a        \u000a\u000a        \u000a            \u000a        \u000a\u000a        \u000a        \u000a        \u000a        \u000a        \u000a        \u000a        \u000a            \u000a            \u000a                \u000a                    \u000a                        19 customer reviews\u000a                    \u000a                \u000a            \u000a                \u000a                    P.when('A', 'ready').execute(function(A) {\u000a                        A.declarative('acrLink-click-metrics', 'click', { "allowLinkDefault" : true }, function(event){\u000a                            if(window.ue) {\u000a                                ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);\u000a                            }\u000a                        });\u000a                    });\u000a                \u000a            \u000a            \u000a            \u000a            \u000a        \u000a        \u000a        \u000a            P.when('A', 'cf').execute(function(A) {\u000a                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){\u000a                    if(window.ue) {\u000a                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);\u000a                    }\u000a                });\u000a            });\u000a        \u000a\u000a\u000a                \u000a            \u000a        \u000a    \u000a\u000a\u000a  3.7 out of 5 stars
+p71
+sVComputer Memory Type
+p72
+VGDDR5
+p73
+sVShipping Weight
+p74
+V10.2 pounds (View shipping rates and policies)
+p75
+sVColor
+p76
+VLaptop
+p77
+sVSeries
+p78
+VGL702VM-DS74
+p79
+sVNumber of USB 3.0 Ports
+p80
+V3
+p81
+sVBest Sellers Rank
+p82
+V#16,725 in Computers & Accessories (See top 100)\u000a        \u000a              \u000a                #3,276 in Computers & Accessories > Laptops > Traditional Laptops
+p83
+sVFlash Memory Size
+p84
+V128
+p85
+sVMemory Speed
+p86
+V2133 MHz
+p87
+sVBatteries
+p88
+V1 Lithium Polymer batteries required. (included)
+p89
+sVCard Description
+p90
+VDedicated
+p91
+sVVoltage
+p92
+V19.5 volts
+p93
+sVHard Drive Interface
+p94
+VSerial ATA
+p95
+sVRear Webcam Resolution
+p96
+V5 	MP
+p97
+sVProduct Dimensions
+p98
+V10.8 x 16.5 x 0.9 inches
+p99
+ssS'title'
+p100
+(S'ROG Strix GL702VM 17.3" G-SYNC VR Ready Thin and Light Gaming Laptop NVIDIA GTX 1060 6GB Intel Core i7-7700HQ 16GB DDR4 128GB SSD 1TB 5400RPM HDD'
+p101
+Ntp102
+sb.

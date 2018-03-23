@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-EliteBook-Folio-J8U50UT-ABA-14-Inch-Laptop-Silver/108850273'
+p7
+sS'price'
+p8
+V$749.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V14
+p15
+sVmanufacturer_part_number
+p16
+Vj8u50ut # aba
+p17
+ssS'title'
+p18
+VRefurbished HP EliteBook Folio J8U50UT#ABA 14-Inch Laptop (Silver)
+p19
+sb.

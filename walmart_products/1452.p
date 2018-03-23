@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/HP-OMEN-17-17-3-UHD-4K-Gaming-Business-Laptop-Intel-i7-Quad-Core-1TB-HDD-1TB-SSD-17-3-inch-UHD-3840-x-2160-32GB-RAM-GeForce-GTX-1050-Ti-Win-10/237461305'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VMichaelElectronics2
+p13
+sVScreen Size
+p14
+V17.3
+p15
+sVHard Drive Capacity
+p16
+V1000
+p17
+ssS'title'
+p18
+VHP OMEN 17 17.3'' UHD 4K Gaming and Business Laptop (Intel i7 Quad Core, 1TB HDD + 1TB SSD, 17.3 inch UHD 3840 x 2160, 32GB RAM, GeForce GTX 1050 Ti , Win 10)
+p19
+sb.

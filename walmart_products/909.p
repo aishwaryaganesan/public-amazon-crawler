@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-Pavilion-TouchSmart-15-n034nr-15-6-Intel-Core-i3-4005U-Notebook-PC-6GB-750GB-DVD-Burner-Webcam/173531634'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VPavilion
+p13
+sVHard Drive Capacity
+p14
+V750
+p15
+ssS'title'
+p16
+VRefurbished HP Pavilion TouchSmart 15-n034nr 15.6 Intel Core i3-4005U Notebook PC 6GB 750GB DVD Burner & Webcam
+p17
+sb.

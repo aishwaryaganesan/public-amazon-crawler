@@ -1,0 +1,32 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Superb-Choice-90W-Adapter-for-HP-Pavilion-17-f-15-p-Series-15-P010us-15-p020us-15-p030nr-Sleekbook-Ultrabook/288388314'
+p7
+sS'price'
+p8
+V$21.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VSuperb Choice
+p13
+ssS'title'
+p14
+VSuperb Choice® 90W Adapter for HP Pavilion 17-f 15-p Series 15-P010us 15-p020us 15-p030nr Sleekbook Ultrabook
+p15
+sb.

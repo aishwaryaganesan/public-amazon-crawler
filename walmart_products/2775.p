@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-VivoBook-S300CA-DS51T-CA-Ultrabook-I5-3317U-Laptop-PC-4GB-500GB-13-3-Windows-8/830355339'
+p7
+sS'price'
+p8
+V$398.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VASUS
+p13
+sVHard Drive Capacity
+p14
+V500
+p15
+ssS'title'
+p16
+VRefurbished VivoBook S300CA-DS51T-CA Ultrabook I5-3317U Laptop PC 4GB 500GB 13.3 Windows 8
+p17
+sb.

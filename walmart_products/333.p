@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-HP-EliteBook-2760p-LJ466UT-12-Inch-LED-Tablet-PC-Intel-Core-i5-2540M-2-6GHz/715633213'
+p7
+sS'price'
+p8
+S'N/A'
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VHP
+p13
+sVScreen Size
+p14
+V12
+p15
+ssS'title'
+p16
+VRefurbished HP EliteBook 2760p LJ466UT 12-Inch LED Tablet PC (Intel Core i5-2540M 2.6GHz ...
+p17
+sb.

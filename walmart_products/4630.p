@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/600036-001-LCD-panel-power-inverter-board-For-18-5-inch-panel-2CCFL-7-5MA-AUO/776546908'
+p7
+sS'price'
+p8
+V$21.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VGeneric
+p13
+sVFeatures
+p14
+VReplacement Part Only. No accessories, cables or manuals are included unless otherwise noted
+p15
+sVCondition
+p16
+VGrade A Used Like New. 100% Tested and Working
+p17
+ssS'title'
+p18
+V600036-001 LCD panel power inverter board - For 18.5-inch panel, 2CCFL, 7.5MA AUO
+p19
+sb.

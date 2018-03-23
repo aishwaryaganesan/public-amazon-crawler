@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/15-4-inch-MacBook-Pro-2-8GHz-Quad-core-Intel-i7-with-Retina-Display-Refurbished/200382265'
+p7
+sS'price'
+p8
+V$3,631.89
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V15.4\u005c"
+p15
+ssS'title'
+p16
+V15.4-inch MacBook Pro 2.8GHz Quad-core Intel i7 with Retina Display (Refurbished)
+p17
+sb.

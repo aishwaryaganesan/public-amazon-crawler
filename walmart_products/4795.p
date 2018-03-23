@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Lenovo-ThinkPad-X240-1-9GHz-i5-4GB-240SSD-Windows-10-Pro-64-12-Laptop-B-Camera/434767110'
+p7
+sS'price'
+p8
+V$228.00
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VLenovo
+p13
+sVScreen Size
+p14
+V12\u005c"
+p15
+sVModel
+p16
+VThinkPad X240
+p17
+ssS'title'
+p18
+VRefurbished Lenovo ThinkPad X240 1.9GHz i5 4GB 240SSD Windows 10 Pro 64 12" Laptop B Camera
+p19
+sb.

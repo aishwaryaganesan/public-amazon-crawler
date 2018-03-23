@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Microsoft-Surface-Pro-2017r-I7-8-256-SURFACEPRO-2017R-I7-8-256/261076321'
+p7
+sS'price'
+p8
+V$1,497.14
+p9
+sS'properties'
+p10
+(dp11
+VModel
+p12
+VFPH-00001
+p13
+sVBrand
+p14
+VMicrosoft
+p15
+sVManufacturer Part Number
+p16
+VFPH-00001
+p17
+sVFeatures
+p18
+VCPO MICROSOFT SURFACEPRO-2017R I7/8/256
+p19
+ssS'title'
+p20
+V"Microsoft Surface Pro-2017r I7/8/256 SURFACEPRO-2017R I7/8/256"
+p21
+sb.

@@ -1,0 +1,44 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-13-3-MacBook-Air-128GB-SSD-MQD32LL-A-Newest-Version-2017-Model-Frosted-Orange-Bundle/808653189'
+p7
+sS'price'
+p8
+V$870.39
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V13.3\u005c"
+p15
+sVHard Drive Capacity
+p16
+V128 GB
+p17
+sVCondition
+p18
+VNew
+p19
+ssS'title'
+p20
+VApple 13.3" MacBook Air 128GB SSD #MQD32LL/A (Newest Version 2017 Model) Frosted Orange Bundle
+p21
+sb.

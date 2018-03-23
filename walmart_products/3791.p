@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Apple-13-3-MacBook-Air-Mid-2017-Silver-128GB-Refurbished/961392996'
+p7
+sS'price'
+p8
+V$866.19
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VApple
+p13
+sVScreen Size
+p14
+V13.3 in
+p15
+sVCondition
+p16
+VNew
+p17
+ssS'title'
+p18
+VApple 13.3" MacBook Air (Mid 2017, Silver - 128GB)(Refurbished)
+p19
+sb.

@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/REFURBISHED-HP-Pavilion-Dv2-Notebook-Laptop-Spanish-OS-and-Keyboard-2gb-Ram-16/417563189'
+p7
+sS'price'
+p8
+V$249.98
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VGeneric
+p13
+sVRAM Memory
+p14
+V2 GB
+p15
+sVCondition
+p16
+VRefurbished
+p17
+ssS'title'
+p18
+VREFURBISHED - HP Pavilion Dv2 Notebook Laptop Spanish OS and Keyboard 2gb Ram 16
+p19
+sb.

@@ -1,0 +1,40 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Refurbished-Dell-Inspiron-15R-15-6-Inch-Notebook-Computer-AMD-Quad-Core-A8-5545M-1-7-GHz-AMD-Radeon-HD-8510G-12GB-RAM-1TB-Hard-Drive-Wi/104575301'
+p7
+sS'price'
+p8
+V$348.99
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VDell
+p13
+sVScreen Size
+p14
+V15.6
+p15
+sVHard Drive Capacity
+p16
+V1000
+p17
+ssS'title'
+p18
+VRefurbished Dell Inspiron 15R 15.6-Inch Notebook Computer (AMD Quad-Core A8-5545M 1.7 GHz, AMD Radeon HD 8510G, 12GB RAM, 1TB Hard Drive, Wi
+p19
+sb.

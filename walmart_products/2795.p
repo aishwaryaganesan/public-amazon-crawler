@@ -1,0 +1,36 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+ProductRecord
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'product_url'
+p6
+S'http://www.walmart.com/ip/Protect-Computer-Products-Lenovo-T560-Thinkpad-Ultrabook-Custom-Laptop-Cover-Keeps-Notebooks-Free/877955592'
+p7
+sS'price'
+p8
+V$28.60
+p9
+sS'properties'
+p10
+(dp11
+VBrand
+p12
+VPROTECT COMPUTER PRODUCTS
+p13
+sVCondition
+p14
+VNew
+p15
+ssS'title'
+p16
+VProtect Computer Products Lenovo T560 Thinkpad Ultrabook Custom Laptop Cover. Keeps Notebooks Free
+p17
+sb.
